@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tanishq.legaldeepilinking.DocumentUpload">
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/upload_documnets"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/cloud"-->
+<!--            android:layout_width="175dp"-->
+<!--            android:layout_height="175dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/ic_upload_cloud" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/please"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/cloud"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:fontFamily="@font/gotham_medium_regular"-->
+<!--            android:text="Please Upload your document here"-->
+<!--            android:textColor="@color/darkblue"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/required"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/please"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:fontFamily="@font/gotham_medium_regular"-->
+<!--            android:text="Required Document:- asdfgh"-->
+<!--            android:textColor="@color/darkblue"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/choose_layout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/required"-->
+<!--            android:layout_marginStart="100dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginEnd="100dp"-->
+<!--            android:background="@drawable/choose_background"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingVertical="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:src="@drawable/ic_document" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:fontFamily="@font/gotham_medium"-->
+<!--                android:text="Choose File"-->
+<!--                android:textColor="@color/darkblue"-->
+<!--                android:textSize="18sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/submit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/choose_layout"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/bg_font_5"-->
+<!--            android:fontFamily="@font/gotham_bold"-->
+<!--            android:paddingHorizontal="20dp"-->
+<!--            android:paddingVertical="11dp"-->
+<!--            android:text="Submit"-->
+<!--            android:textColor="@color/primary"-->
+<!--            android:textSize="18dp" />-->
+
+<!--    </RelativeLayout>-->
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/upload_documnets_1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_centerVertical="true">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/cloud_1"-->
+<!--            android:layout_width="175dp"-->
+<!--            android:layout_height="175dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/ic_upload_cloud" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/download"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/bg_orange_1"-->
+<!--            android:layout_below="@id/cloud_1"-->
+<!--            android:drawableEnd="@drawable/ic_download_icon"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/gotham_medium_regular"-->
+<!--            android:paddingVertical="10dp"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:paddingEnd="10dp"-->
+<!--            android:text="Download Document"-->
+<!--            android:textColor="@color/whitenew"-->
+<!--            android:textSize="16dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/please_1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/download"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:fontFamily="@font/gotham_medium_regular"-->
+<!--            android:text="Please Upload your document here"-->
+<!--            android:textColor="@color/darkblue"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/required_1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/please_1"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:fontFamily="@font/gotham_medium_regular"-->
+<!--        android:text="Required Document:- asdfgh"-->
+<!--        android:textColor="@color/darkblue"-->
+<!--        android:textSize="18sp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/choose_layout_1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/required_1"-->
+<!--            android:layout_marginStart="100dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginEnd="100dp"-->
+<!--            android:background="@drawable/choose_background"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingVertical="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:src="@drawable/ic_document" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:fontFamily="@font/gotham_medium"-->
+<!--                android:text="Choose File"-->
+<!--                android:textColor="@color/darkblue"-->
+<!--                android:textSize="18sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/submit_1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/choose_layout_1"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/bg_font_5"-->
+<!--            android:fontFamily="@font/gotham_bold"-->
+<!--            android:paddingHorizontal="20dp"-->
+<!--            android:paddingVertical="11dp"-->
+<!--            android:text="Submit"-->
+<!--            android:textColor="@color/primary"-->
+<!--            android:textSize="18dp" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linear"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="gone">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:fontFamily="@font/gotham_bold"-->
+<!--            android:text="Approve Document"-->
+<!--            android:textColor="@color/primary"-->
+<!--            android:textSize="28dp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="3dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:background="@color/primary" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_group_5735" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/gotham_bold"-->
+<!--                android:text="For: "-->
+<!--                android:textColor="@color/darkblue"-->
+<!--                android:textSize="22dp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/serviceName"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/gotham_medium_regular"-->
+<!--                    android:text="GST Registration"-->
+<!--                    android:textColor="@color/font"-->
+<!--                    android:textSize="20dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/serviceName_hindi"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/gotham_medium_regular"-->
+<!--                    android:text="(जीएसटी रजिस्ट्रेशन)"-->
+<!--                    android:textColor="@color/font"-->
+<!--                    android:textSize="16dp" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/view"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/bg_orange_1"-->
+<!--            android:drawableEnd="@drawable/ic_path_19498"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/gotham_medium_regular"-->
+<!--            android:paddingVertical="10dp"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:paddingEnd="10dp"-->
+<!--            android:text="View Document"-->
+<!--            android:textColor="@color/whitenew"-->
+<!--            android:textSize="16dp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="35dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/stroke_green"-->
+<!--                android:fontFamily="@font/gotham_bold"-->
+<!--                android:paddingVertical="10dp"-->
+<!--                android:paddingStart="35dp"-->
+<!--                android:paddingEnd="35dp"-->
+<!--                android:text="Approve"-->
+<!--                android:textColor="@color/greennew"-->
+<!--                android:textSize="18dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="25dp"-->
+<!--                android:background="@drawable/stroke_red"-->
+<!--                android:fontFamily="@font/gotham_bold"-->
+<!--                android:paddingVertical="10dp"-->
+<!--                android:paddingStart="25dp"-->
+<!--                android:paddingEnd="25dp"-->
+<!--                android:text="Disapprove"-->
+<!--                android:textColor="@color/red_div"-->
+<!--                android:textSize="18dp" />-->
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+</RelativeLayout>

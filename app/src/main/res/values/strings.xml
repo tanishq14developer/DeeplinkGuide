@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LegalDeepiLinking</string>
+    <string name="tr">Trademark Registration</string>
+    <string name="tr_hindi">ट्रेडमार्क पंजीकरण</string>
+    <string name="gst">GST Registration</string>
+    <string name="gst_hindi">(जीएसटी रजिस्ट्रेशन)</string>
+    <string name="gstrf">GST Return Filing</string>
+    <string name="gstrf_hindi">(जीएसटी रिटर्न फाइलिंग)</string>
+    <string name="itr">Income Tax Return Filing</string>
+    <string name="itr_hindi">(इनकम टैक्स रिटर्न फाइलिंग)</string>
+
+
+</resources>

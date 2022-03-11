@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable-v24/ic_green_tick.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_font_5.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_input_otp.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_orange_1.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_red_5.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_round_grey.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/bg_white_10.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/choose_background.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_camera_upload.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_document.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_file.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_gallery.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_not_available.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_path_19498.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_red_cross.xml" value="0.22407407407407406" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/ic_upload_cloud.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/stroke_green.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/drawable/stroke_red.xml" value="0.240625" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/activity_deep_linking.xml" value="0.2" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/activity_document_upload.xml" value="0.176" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/email_only.xml" value="0.22447916666666667" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/mobile_only.xml" value="0.22447916666666667" />
+        <entry key="..\:/Coding/WappgoNewTak/LegalDeepiLinking/app/src/main/res/layout/upload_document.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/activity_document_upload.xml" value="0.18614130434782608" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
